@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+nav {
+    background-color: black; /* Or whatever color you want */
+    width: 100%;
+    padding: 15px 0;
+    margin: 0; /* Add this */
+}
+
+nav ul {
+    color: #d84f2a;
+    font-family: helvetica;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+
+nav a {
+text-decoration: none;
+color: white;
+transition: all 0.26s ease-out;
+}
+
+nav a:hover{
+
+    color: #d84f2a; /* Change to whatever color you want */
+  transform: scale(1.05); /* Optional: Adds a slight zoom */
+}
+
+
+    .container {
+        display: grid;
+    width: 1000px;
+    grid-template-columns: 200px 1fr 2fr;
+     grid-template-rows: 100px 1fr 50px
+    gird
+    background-color: #d84f2a;
+}
+
+
+
