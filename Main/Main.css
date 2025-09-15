@@ -101,25 +101,3 @@ align-items: center;
     object-fit: cover; 
 }
 
-@media (max-width: 1130px) { 
-.container {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-    }
-    
-    .profile-pic-wrapper { 
-        margin-top: 4vh;
-    width: 300px;
-    height: 315px;
-    }
-
-
-@media (max-width: 700px) { 
-.item3 h1 {
-    font-size: 70px;
-}
-
-}
-
