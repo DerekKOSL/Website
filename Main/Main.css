@@ -129,6 +129,18 @@ border-radius: 1rem;
     grid-template-rows: repeat(6, auto);
 }
 
+.grid2-text-cont a {
+    font-size: 1rem;
+color: gray;
+text-decoration: none;
+   transition: all 0.26s ease-out;
+}
+
+.grid2-text-cont a:hover {
+color: white;
+text-decoration: none;
+}
+
 .grid2-text-cont h1 {
     color: white;
  font-size: 4rem;
@@ -171,8 +183,23 @@ grid-column: 2/7;
 .grid2-social-links-cont {
     grid-row: 5/6;
     grid-column: 2/7;
-     border: 2px solid red ; 
+     display: flex;
+    justify-content: space-evenly; /* or space-around, space-between */
+    align-items: center; /* Vertical alignment */
+    gap: 1rem; /* Optional: consistent spacing */
+    margin: 0;
 }
+
+.grid2-social-links-cont i {
+color: white;
+   transition: all 0.26s ease-out;
+}
+
+.grid2-social-links-cont i:hover {
+color: gray;
+transform: scale(1);
+}
+
 
 @media (max-width: 1130px) { 
 .grid1-cont {
