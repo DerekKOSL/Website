@@ -40,6 +40,7 @@ nav a:hover{
     display: grid;
     grid-template-columns: 100px 100px 100px  100px 100px 100px;
     grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    margin-bottom: 10rem;
 }
 
 .grid1-img-cont {
@@ -64,7 +65,6 @@ align-items: center;
     font-size: 90px;
     font-family: helvetica;
     color: white;
-  
     margin-bottom: 0;
     
 }
@@ -84,7 +84,6 @@ align-items: center;
       transform: scale(1.05); 
 }
 
-
 .profile-pic-cont { 
     width: 350px;
     height: 315px;
@@ -101,6 +100,50 @@ align-items: center;
     object-fit: cover; 
 }
 
+.grid2-cont {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 100px 100px 100px  100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    margin-top: 8rem;
+}
+
+.grid2-img-cont {
+grid-area: 1/ 1 /7/ 6;
+margin-left: 1.5rem;
+}
+
+.grid2-img-cont img{
+width: 100%;
+height: auto;
+border-radius: 1rem;
+}
+
+.grid2-text-cont {
+
+grid-row: 1/7;
+grid-column: 6/8;
+display: grid;
+ grid-template-columns: 100px 100px 100px  100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+}
+
+.grid2-text-cont h1 {
+    color: white;
+ font-size: 90px;
+    font-family: helvetica;
+    grid-row: 1/2;
+grid-column: 2/7;
+}
+
+.grid2-text-cont p {
+    color: white;
+ font-size: 16px;
+    font-family: helvetica;
+    grid-row: 3/4;
+grid-column: 2/7;
+}
+
 @media (max-width: 1130px) { 
 .grid1-cont {
 display: flex;
@@ -114,7 +157,6 @@ align-items: center;
     height: 315px;
     }
 }
-
 @media (max-width: 700px) { 
 .grid1-text-cont h1 {
     font-size: 70px;
